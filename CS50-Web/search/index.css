@@ -1,5 +1,4 @@
 body {
-  width: 1300px; 
   margin: auto; 
 }
 
@@ -24,6 +23,13 @@ h1 {
 .centerFlex{
   display: flex;
   justify-content:center;
+}
+
+.topHeading{
+  padding: 10px;
+  background: #1abc9c;
+  font-size: 30px;
+  width: 200%;
 }
 
 .enterItem {
