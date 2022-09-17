@@ -8,27 +8,27 @@
     
     <body>
         <h1>
-            <p id="navigate" onclick="toHome()">Go Back.</p>
+            <p id="navigate" onclick="toHome()">Go Back</p>
         </h1>
         <div class="select">
             <label for="item">Item Catagory:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <p id="enterpage" onclick="toList()">enter</p>
+            <input type="text" id="itemCatagory" name="itemCatagory"><br>
+            </br>
+            <div class = "enterItem">
+                <p id="request" onclick= "toList()"> Add Item</p>
+            </div>
         </div>
-
         
-        <input type="button" id="add" value="Add New">
-        <ol id="list_item">
-
-        </ol>
+        
+    </br>
 
         <div class="choose car">
             <label for="donate">Choose food or clothing:</label>
             <select name="donate" id="donate">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+            <option value="food">Food</option>
+            <option value="clothing">Clothing</option>
+            <option value="furniture">Furniture</option>
+            <option value="appliances">Appliances</option>
             </select>
         </div>
     </body>
