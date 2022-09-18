@@ -1,0 +1,1 @@
+The search folder contains a project I have created intended to mimick the google search. (Not completed yet)
