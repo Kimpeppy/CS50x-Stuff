@@ -66,6 +66,14 @@ label {
   width: 77%;
 }
 
+.column col20 {
+  width: 20%;
+}
+
+.column col70 {
+  width: 70%;
+}
+
 .itemBox {
   padding: 10px;
   background:rgba(228, 228, 228, 0.7)
