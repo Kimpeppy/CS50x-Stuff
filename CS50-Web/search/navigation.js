@@ -8,7 +8,7 @@ function toHome() {
 }
 
 function toSell() {
-    window.location.href = "sell.html"
+    window.location.href = "listing.html"
 }
 
 function toLogin() {
