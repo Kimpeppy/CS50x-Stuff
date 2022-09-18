@@ -9,32 +9,46 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karma&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: auto;
+                background-image: linear-gradient(#fff4d7, #ffc31f);
+                background-attachment: fixed;
+            }
+        </style>
     </head>
     
     
     <body>
-        <div class = "backButton">
-            <h1 id = "forms" onclick= "toHome()"> Back</h1>
+        <div class = "topHeading">
+            <a onclick="toHome()">
+                <h3>Form</h3>
+            </a>
+            <div class="buttons">
+                <h3>Login</h3>
+            </div>
         </div>
+        </br>
         <div class = "Forms">
-            <label for = "Organiztion"> Organization's name</label><br>
+            <label for = "Organiztion">Organization's name</label><br>
             <input type="text" id="organization" name="organizationID"><br>
             </br>
-            <label for = "EID"> EID</label><br>
+            <label for = "EID">Employment Identification Number</label><br>
             <input type="text" id="organization" name="organizationID"><br>
             </br>
-            <label for = "Carbon FootPrint"> CarbonFootprint</label><br>
+            <label for = "Carbon FootPrint">Carbon Footprint</label><br>
             <input type="text" id="organization" name="organizationID"><br>
             </br>
             <label for = "Number of People"> Number of People?</label><br>
             <input type="text" id="organization" name="organizationID"><br>
             </br>
-            
+            <div class="centerFlex">
+                <a onclick="toHome()">
+                    <button class="customButton FormsButton"><span style="color:#FFFFFF">Enter</span></button>
+                </a>
+            </div>
         </div>
-        <div class="centerFlex">
-            <a onclick="toHome()">
-                <button class="customButton FormsButton"><span style="color:#FFFFFF">Enter</span></button>
-            </a>
-        </div>
+        
     </body>
 </html>

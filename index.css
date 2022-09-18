@@ -24,6 +24,14 @@ h4 {
   font-size: 34px;
 }
 
+p {
+  font-family: 'Karma', serif;    
+}
+
+label {
+  font-family: 'Karma', serif; 
+}
+
 .buttons {
   position: absolute;
   top: 8px;
@@ -65,9 +73,12 @@ h4 {
 
 .Forms {
   text-align: center;
-  background: lightgreen;
   padding: 10px;
   background-size: 50px;
+  background:rgb(174, 197, 255);
+  width: 40%;
+  margin: auto;
+  border-radius: 15px;
 }
 
 .topHeading{
@@ -102,6 +113,6 @@ h4 {
 }
 
 .FormsButton{
-  background-color: gray;
+  background-color: rgb(94, 51, 250);
   
 }
