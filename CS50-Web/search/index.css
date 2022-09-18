@@ -33,6 +33,9 @@ h3 {
 
 .Forms{
   text-align: center;
+  background: lightgreen;
+  padding: 10px;
+  background-size: 50px;
 }
 
 .catagories{
