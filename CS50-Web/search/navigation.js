@@ -19,3 +19,7 @@ function toList() {
     var x = document.getElementById("itemCatagory");
     alert(x);
 }
+
+function toForms() {
+    window.location.href= "forms.html"
+}
