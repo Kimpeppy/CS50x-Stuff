@@ -27,6 +27,14 @@ h1 {
   justify-content:center;
 }
 
+.catagories{
+  padding: 10px;
+  background: gray;
+  font-size: 30px;
+  width: 20%;
+}
+
+
 .topHeading{
   padding: 10px;
   background: #5678ce;
