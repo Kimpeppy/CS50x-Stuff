@@ -18,6 +18,12 @@ h3 {
   font-family: 'Karma', serif;
   font-size: 40px;
 }
+
+h4 {
+  font-family: 'Karma', serif;
+  font-size: 34px;
+}
+
 .buttons {
   position: absolute;
   top: 8px;
@@ -43,7 +49,7 @@ h3 {
 }
 
 .categories {
-  background: gray;
+  background: rgba(0,0,0,0.67);
   font-size: 30px;
   width: 20%;
 }
@@ -54,8 +60,7 @@ h3 {
 
 .itemBox {
   padding: 10px;
-  height: 150px;
-  background: #E4E4E4;
+  background:rgba(228, 228, 228, 0.7)
 }
 
 .Forms {

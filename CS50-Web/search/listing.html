@@ -8,10 +8,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karma&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: auto;
+                background-color: #E4FFF2;
+            }
+        </style>
     </head>
     <body>
         <div class = "topHeading">
-            <h1>Item Listing</h1>
+            <a onclick="toHome()">
+                <h1>Item Listing</h1>
+            </a>
             <div class="buttons">
                 <h3>Login</h3>
                 <h3>Sign up</h3>
@@ -20,26 +29,26 @@
         
         <div class = "row">
             <div class="column categories">
-                <h3>Catagories</h3>
-                <h2>Food</h2>
-                <h2>Furniture</h2>
-                <h2>Applicances</h2>
-                <h2>Clothes</h2>
+                <h3><span style="color:#FFFFFF">Categories</span></h3>
+                <h4><span style="color:#829EFF">Food</span></h4>
+                <h4><span style="color:#FFFFFF">Furniture</span></h4>
+                <h4><span style="color:#FFFFFF">Appliances</span></h4>
+                <h4><span style="color:#FFFFFF">Clothing</span></h4>
             </div>
             <div class="column items">
                 <div class="itemBox">
                     <h3>Red Delicious Apples</h3>
-                    <h4>Description</h4>
+                    <p>An apple a day keeps the doctor away!</p>
                 </div>
                 </br>
                 <div class="itemBox">
                     <h3>Nature Valley Crunch</h3>
-                    <h4>Description</h4>
+                    <p>Description</p>
                 </div>
                 </br>
                 <div class="itemBox">
                     <h3>Goya Canned Small Red Beans</h3>
-                    <h4>Description</h4>
+                    <p>Description</p>
                 </div>
             </div>
         </div>
