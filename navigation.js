@@ -23,3 +23,7 @@ function toList() {
 function toForms() {
     window.location.href= "forms.html"
 }
+
+function textBig() {
+    
+}

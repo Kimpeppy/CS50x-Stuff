@@ -10,31 +10,46 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karma&display=swap" rel="stylesheet">
     </head>
-    
+    <style>
+        body {
+            margin: auto;
+            background-color: #E4FFF2;
+            background-image: linear-gradient(#E4FFF2, #00FC83);
+            background-attachment: fixed;
+        }
+    </style>
     <body>
-        <h1>
-            <p id="navigate" onclick="toHome()">Go Back</p>
-        </h1>
-        <div class="select">
-            <label for="item">Item Catagory:</label><br>
-            <input type="text" id="itemCatagory" name="itemCatagory"><br>
-            </br>
-            <a onclick="toList()">
-                <button class="customButton">Add Item</button>
+        <div class = "topHeading">
+            <a onclick="toHome()">
+                <h3>Item Listing</h3>
             </a>
+            <div class="buttons">
+                <h3>Login</h3>
+            </div>
         </div>
-        
-        
-    </br>
-
-        <div class="choose car">
-            <label for="donate">Choose food or clothing:</label>
+        <div class = "Forms">
+            <label for = "Item Listing">What Item are you listing?</label><br>
+            <input type="text" id="organization" name="organizationID"><br>
+            </br>
+            <label for = "EID">What catagory is your item?</label><br>
             <select name="donate" id="donate">
             <option value="food">Food</option>
             <option value="clothing">Clothing</option>
             <option value="furniture">Furniture</option>
             <option value="appliances">Appliances</option>
             </select>
+            </br>
+            <label for = "Carbon FootPrint">Name of the item</label><br>
+            <input type="text" id="organization" name="organizationID"><br>
+            </br>
+            <label for = "Number of People"> Description of the item?</label><br>
+            <input type="text" id="organization" name="organizationID"><br>
+            </br>
+            <div class="centerFlex">
+                <a onclick="toHome()">
+                    <button class="customButton FormsButton"><span style="color:#FFFFFF">Enter</span></button>
+                </a>
+            </div>
         </div>
     </body>
 </html>
