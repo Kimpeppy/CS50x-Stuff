@@ -26,31 +26,50 @@ h3 {
   font-family: 'Karma', serif;
 }
 
-.centerFlex{
+.centerFlex {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.Forms{
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.categories {
+  background: gray;
+  font-size: 30px;
+  width: 20%;
+}
+
+.items {
+  width: 77%;
+}
+
+.itemBox {
+  padding: 10px;
+  height: 150px;
+  background: #E4E4E4;
+}
+
+.Forms {
   text-align: center;
   background: lightgreen;
   padding: 10px;
   background-size: 50px;
 }
 
-.catagories{
-  padding: 10px;
-  background: gray;
-  font-size: 30px;
-  width: 20%;
-}
-
-
 .topHeading{
   padding: 10px;
   background: #5678ce;
   font-size: 30px;
-  width: 200%;
+  width: 100%;
 }
 
 .customButton {
